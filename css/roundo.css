@@ -1,0 +1,22 @@
+/**
+* @license
+*
+* Font Family: Roundo
+* Designed by: Indian Type Foundry
+* URL: https://www.fontshare.com/fonts/roundo
+* © 2024 Indian Type Foundry
+*
+* Roundo Bold 
+
+*
+*/
+@font-face {
+  font-family: 'Roundo-Bold';
+  src: url('../fonts/Roundo-Bold.woff2') format('woff2'),
+       url('../fonts/Roundo-Bold.woff') format('woff'),
+       url('../fonts/Roundo-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}
+

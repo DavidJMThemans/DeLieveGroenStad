@@ -1,24 +1,55 @@
+@import url('sora.css');
+@import url('roundo.css');
+
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-    background-color: #BFCDE0;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Sora-Thin;
     display: flex;
     flex-wrap: wrap;
-    margin: 0px;
 }
 
 main {
-    width: 90vw;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-h1, h2 {
+main img {
+    width: 100vw;
+    margin-bottom: 2em;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+header img {
+    width: 150px;
+    height: 180px;
+}
+
+section {
+    padding: 0.75em;
+    text-align: center;
+}
+
+h1 {
+    display: flex;
     color: #F7B32B;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+}
+
+h2 {
+    color: #F7B32B; 
+    margin-bottom: 1em;
 }
 
 h3 {
@@ -26,15 +57,26 @@ h3 {
 }
 
 nav {
+    display: flex;
+    justify-content: space-around;
     background-color: #394755;
     padding: 1em;
     width: 100vw;
 }
 
 nav a {
+    padding: 2em;
+}
+
+footer {
     display: flex;
-    justify-content: right;
-    padding: 1em;
+    justify-content: center;
+    bottom: 0;
+    position: fixed;
+}
+
+footer img {
+    height: 50px;
 }
 
 ul {
@@ -49,4 +91,9 @@ a {
 
 a:hover {
     color: #F7B32B;
+}
+
+.white-bar {
+    height: 100px;
+    width: 100%;
 }
