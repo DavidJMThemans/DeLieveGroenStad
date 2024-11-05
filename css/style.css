@@ -8,7 +8,7 @@
 }
 
 body {
-    font-family: Sora-Thin;
+    font-family: Sora-Light;
     display: flex;
     flex-wrap: wrap;
     background-image: url('../images/Background.jpg');
@@ -27,7 +27,6 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    position: fixed;
     padding: 0.5em;
     background-color: #394755;
     width: 100vw;
@@ -66,7 +65,7 @@ h1 {
 
 h2 {
     color: #519872;
-    font-family: Sora-Light;
+    font-family: Sora-Bold;
 }
 
 nav {
@@ -100,11 +99,6 @@ ul {
 
 .white-bar {
     height: 58px;
-    width: 100%;
-}
-
-.white-bar-top {
-    height: 130px;
     width: 100%;
 }
 
