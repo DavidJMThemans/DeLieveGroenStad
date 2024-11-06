@@ -42,12 +42,11 @@ main img {
 }
 
 section {
-    margin: 1.5em;
     text-align: center;
 }
 
 p {
-    padding: 0.75em;
+    padding-bottom: 10%;
 }
 
 main > p {
@@ -66,6 +65,7 @@ h1 {
 h2 {
     color: #519872;
     font-family: Sora-Bold;
+    margin: 1em;
 }
 
 nav {
@@ -108,4 +108,16 @@ main > p {
 
 main > img {
     margin-bottom: 1em;
+}
+
+.zon {
+    width: 170px;
+    height: 250px;
+    margin: 1em;
+}
+
+.comtekst {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
 }
