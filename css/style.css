@@ -1,0 +1,104 @@
+@import url('sora.css');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Sora-Light;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url('../images/Background.jpg');
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100vw;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0.5em;
+    background-color: #394755;
+    width: 100vw;
+}
+
+h1 {
+    display: flex;
+    margin: 0.5em;
+    text-align: center;
+    color: #394755;
+    font-family: Sora-Bold;
+}
+
+h2 {
+    color: #519872;
+    font-family: Sora-Bold;
+    margin: 0.5em;
+}
+
+section {
+    text-align: center;
+}
+
+p {
+    padding: 1em;
+}
+
+nav {
+    display: flex;
+    padding: 1em;
+    justify-content: center;
+    background-color: #394755;
+    width: 100vw;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+    position: fixed;
+}
+
+header img {
+    width: 90vw;
+    padding: 0.5em;
+}
+
+main img {
+    width: 100vw;
+}
+
+nav a {
+    padding: 1.5em;
+}
+
+footer img {
+    height: 50px;
+}
+
+main > p {
+    padding-top: 0em;
+    padding-bottom: 0.75em;
+    text-align: center;
+}
+
+main > img {
+    margin-bottom: 0.5em;
+}
+
+.white-bar {
+    height: 58px;
+    width: 100%;
+}
