@@ -12,7 +12,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     background-image: url('../images/Background.jpg');
-    background-size: cover;
+    
 }
 
 main {
@@ -46,7 +46,7 @@ section {
 }
 
 p {
-    padding-bottom: 10%;
+    padding: 1em;
 }
 
 main > p {
@@ -65,7 +65,7 @@ h1 {
 h2 {
     color: #519872;
     font-family: Sora-Bold;
-    margin: 1em;
+    margin: 0.5em;
 }
 
 nav {
@@ -89,7 +89,6 @@ footer {
 
 footer img {
     height: 50px;
-    width: 50px;
 }
 
 ul {
@@ -107,12 +106,12 @@ main > p {
 }
 
 main > img {
-    margin-bottom: 1em;
+    margin-bottom: 0.5em;
 }
 
 .zon {
     width: 170px;
-    height: 250px;
+    height: 220px;
     margin: 1em;
 }
 
